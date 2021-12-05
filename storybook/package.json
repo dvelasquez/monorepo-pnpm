@@ -10,21 +10,21 @@
     "build": "build-storybook"
   },
   "dependencies": {
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
     "@d13z-monorepo-pnpm/component-a": "workspace:*",
     "@d13z-monorepo-pnpm/component-b": "workspace:*",
     "@d13z-monorepo-pnpm/component-c": "workspace:*"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.0",
-    "@storybook/addon-actions": "^6.4.7",
-    "@storybook/addon-essentials": "^6.4.7",
-    "@storybook/addon-links": "^6.4.7",
-    "@storybook/react": "^6.4.7",
-    "@vitejs/plugin-react": "^1.0.0",
-    "babel-loader": "^8.2.3",
-    "storybook-builder-vite": "^0.1.10",
-    "vite": "^2.6.4"
+    "@babel/core": "7.16.0",
+    "@storybook/addon-actions": "6.4.7",
+    "@storybook/addon-essentials": "6.4.7",
+    "@storybook/addon-links": "6.4.7",
+    "@storybook/react": "6.4.7",
+    "@vitejs/plugin-react": "1.1.0",
+    "babel-loader": "8.2.3",
+    "storybook-builder-vite": "0.1.10",
+    "vite": "2.6.14"
   }
 }
