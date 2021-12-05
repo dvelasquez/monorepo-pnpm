@@ -8,6 +8,9 @@
     "import": "./dist/mjs/index.js",
     "require": "./dist/cjs/index.js"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1",

@@ -1,3 +1,4 @@
+import resolve from "@rollup/plugin-node-resolve";
 import swc from "rollup-plugin-swc";
 
 export default function config({
@@ -8,41 +9,54 @@ export default function config({
   outputCJS,
   external,
 }) {
+  const swcConfig = {
+    jsc: {
+      parser: {
+        syntax: "typescript",
+        tsx: false,
+        decorators: false,
+        dynamicImport: false,
+      },
+      target: "es5",
+      loose: false,
+      externalHelpers: false,
+    },
+    env: {
+      targets: {
+        chrome: "79",
+      },
+      mode: "entry",
+      coreJs: 3,
+    },
+    sourceMaps: true,
+  };
   const esmConfig = {
     input: `${cwd}/${input}`,
+    external,
     output: {
       dir: outputESM,
       format: "es",
-      external,
     },
     plugins: [
-      swc({
-        jsc: {
-          parser: {
-            syntax: "typescript",
-          },
-          target: "es2018",
-        },
+      resolve({
+        extensions: [".ts", ".tsx", ".js", ".jsx"],
       }),
+      swc(swcConfig),
     ],
   };
 
   const cjsConfig = {
     input: `${cwd}/${input}`,
+    external,
     output: {
       dir: outputCJS,
       format: "cjs",
-      external,
     },
     plugins: [
-      swc({
-        jsc: {
-          parser: {
-            syntax: "typescript",
-          },
-          target: "es2018",
-        },
+      resolve({
+        extensions: [".ts", ".tsx", ".js", ".jsx"],
       }),
+      swc(swcConfig),
     ],
   };
 

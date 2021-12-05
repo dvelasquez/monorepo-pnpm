@@ -1,7 +1,14 @@
 import React from "react";
+import Title from "./Title";
+import Body from "./Body";
 
 const ComponentA = () => {
-  return <div>Hello from Component A</div>;
+  return (
+    <div>
+      <Title />
+      <Body>Hello from Component A</Body>
+    </div>
+  );
 };
 
 export { ComponentA };
