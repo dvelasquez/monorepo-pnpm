@@ -11,7 +11,7 @@
   "scripts": {
     "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postbuild":"tsc"
+    "postbuild": "tsc"
   },
   "keywords": [],
   "author": "",

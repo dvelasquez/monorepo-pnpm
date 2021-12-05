@@ -18,8 +18,8 @@
     "strict": true,
     "traceResolution": false,
     "jsx": "react",
-    "outDir": "./dist/types",
+    "outDir": "./dist/types"
   },
   "exclude": ["node_modules", "dist"],
-  "include": ["src/**/*.ts","src/**/*.tsx"],
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
 }
