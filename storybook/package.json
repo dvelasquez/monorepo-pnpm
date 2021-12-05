@@ -1,6 +1,7 @@
 {
-  "name": "storybook",
+  "name": "@d13z-monorepo-pnpm/storybook",
   "version": "0.0.0",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build:vite": "vite build",
