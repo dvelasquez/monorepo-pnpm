@@ -2,6 +2,7 @@
   "name": "@d13z-monorepo-pnpm/root",
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --ext .ts --ext .tsx --ext .json --ext .js --ext .jsx",
