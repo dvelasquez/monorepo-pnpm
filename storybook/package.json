@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "vite",
-    "build:vite": "vite build",
+    "vite:dev": "vite",
+    "vite:build": "vite build",
     "serve": "vite preview",
-    "storybook": "start-storybook -p 6006",
-    "build": "build-storybook"
+    "storybook:dev": "start-storybook -p 6006",
+    "storybook:build": "build-storybook"
   },
   "dependencies": {
     "react": "17.0.2",
