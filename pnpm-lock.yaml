@@ -66,7 +66,7 @@ importers:
       react: 17.0.2
       react-dom: 17.0.2
       storybook-builder-vite: 0.1.10
-      vite: 2.7.2
+      vite: 2.7.3
     dependencies:
       '@d13z-monorepo-pnpm/component-a': link:../packages/component-a
       '@d13z-monorepo-pnpm/component-b': link:../packages/component-b
@@ -81,8 +81,8 @@ importers:
       '@storybook/react': 6.4.9_7459293a6e2dd4313dcbe738e7dfe5df
       '@vitejs/plugin-react': 1.1.0
       babel-loader: 8.2.3_@babel+core@7.16.5
-      storybook-builder-vite: 0.1.10_c25625a82e54da6394e641faa2716f6a
-      vite: 2.7.2
+      storybook-builder-vite: 0.1.10_ed9f7420aa85afc4af21e46c6089b966
+      vite: 2.7.3
 
 packages:
 
@@ -10772,14 +10772,6 @@ packages:
       rollup: 2.61.1
     dev: true
 
-  /rollup/2.60.2:
-    resolution: {integrity: sha512-1Bgjpq61sPjgoZzuiDSGvbI1tD91giZABgjCQBKM5aYLnzjq52GoDuWVwT/cm/MCxCMPU8gqQvkj8doQ5C8Oqw==}
-    engines: {node: '>=10.0.0'}
-    hasBin: true
-    optionalDependencies:
-      fsevents: 2.3.2
-    dev: true
-
   /rollup/2.61.1:
     resolution: {integrity: sha512-BbTXlEvB8d+XFbK/7E5doIcRtxWPRiqr0eb5vQ0+2paMM04Ye4PZY5nHOQef2ix24l/L0SpLd5hwcH15QHPdvA==}
     engines: {node: '>=10.0.0'}
@@ -11230,7 +11222,7 @@ packages:
     resolution: {integrity: sha512-7t+/wpKLanLzSnQPX8WAcuLCCeuSHoWdQuh9SB3xD0kNOM38DNf+0Oa+wmvxmYueRzkmh6IcdKFtvTa+ecgPDw==}
     dev: true
 
-  /storybook-builder-vite/0.1.10_c25625a82e54da6394e641faa2716f6a:
+  /storybook-builder-vite/0.1.10_ed9f7420aa85afc4af21e46c6089b966:
     resolution: {integrity: sha512-P37My4QJQdeh/6BC4KkfNzAfeV+Zw7zXcD9pkzFuQ2Gs2TA5fBu/1M6wOSZZRea3epWHgW8hkBp0YDQlHdV6cg==}
     peerDependencies:
       vite: '>=2.6.7'
@@ -11242,8 +11234,8 @@ packages:
       es-module-lexer: 0.9.3
       glob: 7.2.0
       glob-promise: 4.2.2_glob@7.2.0
-      vite: 2.7.2
-      vite-plugin-mdx: 3.5.10_@mdx-js+mdx@1.6.22+vite@2.7.2
+      vite: 2.7.3
+      vite-plugin-mdx: 3.5.10_@mdx-js+mdx@1.6.22+vite@2.7.3
     transitivePeerDependencies:
       - react
       - react-dom
@@ -12156,7 +12148,7 @@ packages:
       vfile-message: 2.0.4
     dev: true
 
-  /vite-plugin-mdx/3.5.10_@mdx-js+mdx@1.6.22+vite@2.7.2:
+  /vite-plugin-mdx/3.5.10_@mdx-js+mdx@1.6.22+vite@2.7.3:
     resolution: {integrity: sha512-tfGNRwkO23pln9EYqhbsOLEx9Qot5+enl+727gop7+HGEoC87+88hLRWGL+FU/It1Y0a5P3OAyDbTKKHX6tEJw==}
     peerDependencies:
       '@mdx-js/mdx': '*'
@@ -12167,11 +12159,11 @@ packages:
       esbuild: 0.13.8
       resolve: 1.20.0
       unified: 9.2.2
-      vite: 2.7.2
+      vite: 2.7.3
     dev: true
 
-  /vite/2.7.2:
-    resolution: {integrity: sha512-wMffVVdKZRZP/HwW3yttKL8X+IJePz7bUcnGm0vqljffpVwHpjWC3duZtJQHAGvy+wrTjmwU7vkULpZ1dVXY6w==}
+  /vite/2.7.3:
+    resolution: {integrity: sha512-GAY1P+9fLJOju1SRm8+hykVnEXog+E+KXuqqyMBQDriKCUIKzWnPn142yNNhSdf/ixYGYdUa5ce3A8WaEajzGw==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
@@ -12189,7 +12181,7 @@ packages:
       esbuild: 0.13.15
       postcss: 8.4.4
       resolve: 1.20.0
-      rollup: 2.60.2
+      rollup: 2.61.1
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
