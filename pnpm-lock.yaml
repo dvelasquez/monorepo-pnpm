@@ -65,7 +65,7 @@ importers:
       babel-loader: 8.2.3
       react: 17.0.2
       react-dom: 17.0.2
-      storybook-builder-vite: 0.1.11
+      storybook-builder-vite: 0.1.12
       vite: 2.7.5
     dependencies:
       '@d13z-monorepo-pnpm/component-a': link:../packages/component-a
@@ -81,7 +81,7 @@ importers:
       '@storybook/react': 6.4.9_7b9d3a042d7924d64bcc49739068fca4
       '@vitejs/plugin-react': 1.1.3
       babel-loader: 8.2.3_@babel+core@7.16.5
-      storybook-builder-vite: 0.1.11_f0b6b9eab7542dd03a22afd90e998ef8
+      storybook-builder-vite: 0.1.12_f0b6b9eab7542dd03a22afd90e998ef8
       vite: 2.7.5
 
 packages:
@@ -11066,8 +11066,8 @@ packages:
     resolution: {integrity: sha512-7t+/wpKLanLzSnQPX8WAcuLCCeuSHoWdQuh9SB3xD0kNOM38DNf+0Oa+wmvxmYueRzkmh6IcdKFtvTa+ecgPDw==}
     dev: true
 
-  /storybook-builder-vite/0.1.11_f0b6b9eab7542dd03a22afd90e998ef8:
-    resolution: {integrity: sha512-z7cPGhiECkcbaaTVemnMmWmDYnF/P9ToitHJ3XmK2Nlhslz2yafgk4AyQxI3ghup7NnTAfciq77lRavdQnFkVg==}
+  /storybook-builder-vite/0.1.12_f0b6b9eab7542dd03a22afd90e998ef8:
+    resolution: {integrity: sha512-yK/JAhQm0M1nSWUU12fySr/WZyeL0jFYWtx7gH8qB15fHSEV5ASIiCdi07EvyoMZWLdrubpZBZDygWb7ZYmxPg==}
     peerDependencies:
       vite: '>=2.6.7'
     dependencies:
