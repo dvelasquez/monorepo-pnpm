@@ -16,7 +16,7 @@
   "license": "ISC",
   "devDependencies": {
     "@changesets/cli": "2.19.0",
-    "@rollup/plugin-node-resolve": "13.1.2",
+    "@rollup/plugin-node-resolve": "13.1.3",
     "@swc/core": "1.2.126",
     "@typescript-eslint/eslint-plugin": "5.9.0",
     "@typescript-eslint/parser": "5.9.0",
