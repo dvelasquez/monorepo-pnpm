@@ -24,7 +24,7 @@
     "@storybook/react": "6.4.15",
     "@vitejs/plugin-react": "1.1.4",
     "babel-loader": "8.2.3",
-    "storybook-builder-vite": "0.1.13",
+    "storybook-builder-vite": "0.1.14",
     "vite": "2.7.13"
   }
 }
