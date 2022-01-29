@@ -7,7 +7,7 @@ export interface BodyProps {
 const Body = ({ children }: BodyProps) => {
   return (
     <div>
-      Body
+      Da Body
       {children}
     </div>
   );
