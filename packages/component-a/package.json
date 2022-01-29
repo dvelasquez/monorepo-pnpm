@@ -1,6 +1,6 @@
 {
   "name": "@d13z-monorepo-pnpm/component-a",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "",
   "main": "dist/cjs/index.js",
   "module": "dist/mjs/index.js",
