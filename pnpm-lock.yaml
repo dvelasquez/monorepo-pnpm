@@ -15,7 +15,7 @@ importers:
       prettier: 2.5.1
       react: 17.0.2
       rollup: 2.66.1
-      rollup-plugin-swc: 0.2.0
+      rollup-plugin-swc: 0.2.1
       typescript: 4.5.5
     dependencies:
       react: 17.0.2
@@ -30,7 +30,7 @@ importers:
       eslint-plugin-prettier: 4.0.0_43197c8d12d1d439034cfcf65e1c48c2
       prettier: 2.5.1
       rollup: 2.66.1
-      rollup-plugin-swc: 0.2.0_@swc+core@1.2.135+rollup@2.66.1
+      rollup-plugin-swc: 0.2.1_@swc+core@1.2.135+rollup@2.66.1
       typescript: 4.5.5
 
   packages/component-a:
@@ -10572,12 +10572,13 @@ packages:
       inherits: 2.0.4
     dev: true
 
-  /rollup-plugin-swc/0.2.0_@swc+core@1.2.135+rollup@2.66.1:
-    resolution: {integrity: sha512-caZSD80g4RwVxkiaeAp/TYvWGzWjzVKvJKBTSKitcKE95MQrnKm8qICLMwCOdvs4XMgc0RgcsCmVkckl8oMDCg==}
+  /rollup-plugin-swc/0.2.1_@swc+core@1.2.135+rollup@2.66.1:
+    resolution: {integrity: sha512-wWRYt9tC0aIBvRQHNnVtwJ6DRPDj9XYpOAcOyFB11sKSkR/R+NAmbrjBACCPNVmZcxg6joV29wXgb5mU1DI7eA==}
     peerDependencies:
       '@swc/core': '>=1.0'
       rollup: '>=1.5.0'
     dependencies:
+      '@rollup/pluginutils': 4.1.2
       '@swc/core': 1.2.135
       rollup: 2.66.1
     dev: true
