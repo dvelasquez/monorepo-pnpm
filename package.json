@@ -8,8 +8,8 @@
     "lint": "eslint . --ext .ts --ext .tsx --ext .json --ext .js --ext .jsx",
     "lint:fix": "pnpm lint -- --fix",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "ci:version": "lerna version",
-    "ci:publish": "lerna publish from-package"
+    "ci:version": "lerna version --yes",
+    "ci:publish": "lerna publish from-package --yes"
   },
   "keywords": [],
   "author": "",
