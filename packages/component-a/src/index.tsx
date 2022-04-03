@@ -7,6 +7,7 @@ const ComponentA = () => {
     <div>
       <Title />
       <Body>Hello from Component A</Body>
+      <footer>This is a test footer</footer>
     </div>
   );
 };
