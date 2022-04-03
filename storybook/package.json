@@ -10,11 +10,12 @@
     "storybook:build": "build-storybook"
   },
   "dependencies": {
-    "react": "18.0.0",
-    "react-dom": "18.0.0",
     "@d13z-monorepo-pnpm/component-a": "workspace:*",
     "@d13z-monorepo-pnpm/component-b": "workspace:*",
-    "@d13z-monorepo-pnpm/component-c": "workspace:*"
+    "@d13z-monorepo-pnpm/component-c": "workspace:*",
+    "@storybook/builder-vite": "^0.1.23",
+    "react": "18.0.0",
+    "react-dom": "18.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.17.8",
@@ -24,7 +25,6 @@
     "@storybook/react": "6.4.20",
     "@vitejs/plugin-react": "1.3.0",
     "babel-loader": "8.2.4",
-    "storybook-builder-vite": "0.1.23",
     "vite": "2.9.1"
   }
 }
