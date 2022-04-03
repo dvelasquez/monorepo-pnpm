@@ -1,6 +1,6 @@
 {
   "name": "@d13z-monorepo-pnpm/storybook",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": true,
   "scripts": {
     "vite:dev": "vite",
@@ -10,7 +10,7 @@
     "storybook:build": "build-storybook"
   },
   "dependencies": {
-    "@d13z-monorepo-pnpm/component-a": "^1.1.2",
+    "@d13z-monorepo-pnpm/component-a": "^1.2.0",
     "@d13z-monorepo-pnpm/component-b": "^1.0.2",
     "@d13z-monorepo-pnpm/component-c": "^1.0.2",
     "react": "18.0.0",
