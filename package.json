@@ -31,10 +31,5 @@
   "dependencies": {
     "react": "18.0.0"
   },
-  "workspaces":{
-    "packages": [
-      "packages/*",
-      "storybook"
-    ]
-  }
+  "workspaces":["packages/*", "storybook"]      
 }
