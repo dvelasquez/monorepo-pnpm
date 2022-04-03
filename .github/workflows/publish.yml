@@ -54,3 +54,9 @@ jobs:
       - name: publish
         run: pnpm ci:publish
       
+      - name: update lockfile
+        run: |
+          pnpm install
+          git add pnpm-lock.yaml
+          git commit -m "chore: updated lockfile [skip ci]"
+          git push
