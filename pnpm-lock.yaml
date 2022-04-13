@@ -66,7 +66,7 @@ importers:
       react: 18.0.0
       react-dom: 18.0.0
       storybook-builder-vite: 0.1.23
-      vite: 2.9.3
+      vite: 2.9.4
     dependencies:
       '@d13z-monorepo-pnpm/component-a': link:../packages/component-a
       '@d13z-monorepo-pnpm/component-b': link:../packages/component-b
@@ -81,8 +81,8 @@ importers:
       '@storybook/react': 6.4.21_4c535c7c3ba550eae9b220542f0a5d3a
       '@vitejs/plugin-react': 1.3.1
       babel-loader: 8.2.4_@babel+core@7.17.9
-      storybook-builder-vite: 0.1.23_fc98a2ac20dfa0a6c9b088733e972afc
-      vite: 2.9.3
+      storybook-builder-vite: 0.1.23_2aaf6472eb357b311dbe14b634ca8c41
+      vite: 2.9.4
 
 packages:
 
@@ -1940,7 +1940,7 @@ packages:
       chalk: 4.1.2
     dev: true
 
-  /@joshwooding/vite-plugin-react-docgen-typescript/0.0.2_typescript@4.6.3+vite@2.9.3:
+  /@joshwooding/vite-plugin-react-docgen-typescript/0.0.2_typescript@4.6.3+vite@2.9.4:
     resolution: {integrity: sha512-0hbsoX2c7Z3lJKY+88ToduiQDyh+Mggpd6Go0vVV3PchMRyE9iOCVUBiqd4FFfgNdFdk6iNKrO9bdIiHOpW6jA==}
     peerDependencies:
       typescript: '>= 4.3.x'
@@ -1950,7 +1950,7 @@ packages:
       glob-promise: 4.2.2_glob@7.2.0
       react-docgen-typescript: 2.2.1_typescript@4.6.3
       typescript: 4.6.3
-      vite: 2.9.3
+      vite: 2.9.4
     dev: true
 
   /@jridgewell/resolve-uri/3.0.3:
@@ -11164,14 +11164,14 @@ packages:
     resolution: {integrity: sha512-7t+/wpKLanLzSnQPX8WAcuLCCeuSHoWdQuh9SB3xD0kNOM38DNf+0Oa+wmvxmYueRzkmh6IcdKFtvTa+ecgPDw==}
     dev: true
 
-  /storybook-builder-vite/0.1.23_fc98a2ac20dfa0a6c9b088733e972afc:
+  /storybook-builder-vite/0.1.23_2aaf6472eb357b311dbe14b634ca8c41:
     resolution: {integrity: sha512-PmeeYKHaBNQgRVJEwhfyo4Psev1Y7Gj51nlYxUDIG3dpy1e1aGzFubDgsmg9W/BhyHKcLIKp98JBpa1DwL702A==}
     deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     peerDependencies:
       '@storybook/core-common': ^6.4.3
       vite: '>=2.6.7'
     dependencies:
-      '@joshwooding/vite-plugin-react-docgen-typescript': 0.0.2_typescript@4.6.3+vite@2.9.3
+      '@joshwooding/vite-plugin-react-docgen-typescript': 0.0.2_typescript@4.6.3+vite@2.9.4
       '@mdx-js/mdx': 1.6.22
       '@storybook/csf-tools': 6.4.20
       '@storybook/source-loader': 6.4.20_react-dom@18.0.0+react@18.0.0
@@ -11180,8 +11180,8 @@ packages:
       glob: 7.2.0
       glob-promise: 4.2.2_glob@7.2.0
       slash: 3.0.0
-      vite: 2.9.3
-      vite-plugin-mdx: 3.5.10_@mdx-js+mdx@1.6.22+vite@2.9.3
+      vite: 2.9.4
+      vite-plugin-mdx: 3.5.10_@mdx-js+mdx@1.6.22+vite@2.9.4
     transitivePeerDependencies:
       - react
       - react-dom
@@ -12086,7 +12086,7 @@ packages:
       vfile-message: 2.0.4
     dev: true
 
-  /vite-plugin-mdx/3.5.10_@mdx-js+mdx@1.6.22+vite@2.9.3:
+  /vite-plugin-mdx/3.5.10_@mdx-js+mdx@1.6.22+vite@2.9.4:
     resolution: {integrity: sha512-tfGNRwkO23pln9EYqhbsOLEx9Qot5+enl+727gop7+HGEoC87+88hLRWGL+FU/It1Y0a5P3OAyDbTKKHX6tEJw==}
     peerDependencies:
       '@mdx-js/mdx': '*'
@@ -12097,11 +12097,11 @@ packages:
       esbuild: 0.13.8
       resolve: 1.22.0
       unified: 9.2.2
-      vite: 2.9.3
+      vite: 2.9.4
     dev: true
 
-  /vite/2.9.3:
-    resolution: {integrity: sha512-R9IrnWGallcXvOeWa1AA7CH9MdW/9X+cj3c11IHcq98OkNSzWzwb0dd69DvEZTIdxJNOZL3kHRCWC7L2QH0sNw==}
+  /vite/2.9.4:
+    resolution: {integrity: sha512-7pO6ruZMsyTpaPB7kGtW+yj15Ze5g+E4w4Ramk1sAJLIuI4uPd5sauqubmZNpq0Yc1vLVxoXRf2Uj+qWxk5aXw==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
