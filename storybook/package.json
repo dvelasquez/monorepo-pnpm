@@ -17,7 +17,7 @@
     "@d13z-monorepo-pnpm/component-c": "workspace:*"
   },
   "devDependencies": {
-    "@babel/core": "7.18.0",
+    "@babel/core": "7.18.2",
     "@storybook/addon-actions": "6.5.5",
     "@storybook/addon-essentials": "6.5.5",
     "@storybook/addon-links": "6.5.5",
