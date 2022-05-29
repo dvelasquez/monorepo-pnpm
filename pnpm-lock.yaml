@@ -14,14 +14,14 @@ importers:
       eslint-plugin-prettier: 4.0.0
       prettier: 2.6.2
       react: 18.1.0
-      rollup: 2.75.1
+      rollup: 2.75.3
       rollup-plugin-swc: 0.2.1
       typescript: 4.7.2
     dependencies:
       react: 18.1.0
     devDependencies:
       '@changesets/cli': 2.22.0
-      '@rollup/plugin-node-resolve': 13.3.0_rollup@2.75.1
+      '@rollup/plugin-node-resolve': 13.3.0_rollup@2.75.3
       '@swc/core': 1.2.194
       '@typescript-eslint/eslint-plugin': 5.26.0_3e687f93547efbf7d61b629ca4d69a5c
       '@typescript-eslint/parser': 5.26.0_eslint@8.16.0+typescript@4.7.2
@@ -29,8 +29,8 @@ importers:
       eslint-config-prettier: 8.5.0_eslint@8.16.0
       eslint-plugin-prettier: 4.0.0_4fe3201cd09a8826bbd8050f2348cb2f
       prettier: 2.6.2
-      rollup: 2.75.1
-      rollup-plugin-swc: 0.2.1_@swc+core@1.2.194+rollup@2.75.1
+      rollup: 2.75.3
+      rollup-plugin-swc: 0.2.1_@swc+core@1.2.194+rollup@2.75.3
       typescript: 4.7.2
 
   packages/component-a:
@@ -2110,22 +2110,22 @@ packages:
       webpack: 4.46.0
     dev: true
 
-  /@rollup/plugin-node-resolve/13.3.0_rollup@2.75.1:
+  /@rollup/plugin-node-resolve/13.3.0_rollup@2.75.3:
     resolution: {integrity: sha512-Lus8rbUo1eEcnS4yTFKLZrVumLPY+YayBdWXgFSHYhTT2iJbMhoaaBL3xl5NCdeRytErGr8tZ0L71BMRmnlwSw==}
     engines: {node: '>= 10.0.0'}
     peerDependencies:
       rollup: ^2.42.0
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.75.1
+      '@rollup/pluginutils': 3.1.0_rollup@2.75.3
       '@types/resolve': 1.17.1
       deepmerge: 4.2.2
       is-builtin-module: 3.1.0
       is-module: 1.0.0
       resolve: 1.22.0
-      rollup: 2.75.1
+      rollup: 2.75.3
     dev: true
 
-  /@rollup/pluginutils/3.1.0_rollup@2.75.1:
+  /@rollup/pluginutils/3.1.0_rollup@2.75.3:
     resolution: {integrity: sha512-GksZ6pr6TpIjHm8h9lSQ8pi8BE9VeubNT0OMJ3B5uZJ8pz73NPiqOtCog/x2/QzM1ENChPKxMDhiQuRHsqc+lg==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
@@ -2134,7 +2134,7 @@ packages:
       '@types/estree': 0.0.39
       estree-walker: 1.0.1
       picomatch: 2.3.0
-      rollup: 2.75.1
+      rollup: 2.75.3
     dev: true
 
   /@rollup/pluginutils/4.1.2:
@@ -10594,7 +10594,7 @@ packages:
       inherits: 2.0.4
     dev: true
 
-  /rollup-plugin-swc/0.2.1_@swc+core@1.2.194+rollup@2.75.1:
+  /rollup-plugin-swc/0.2.1_@swc+core@1.2.194+rollup@2.75.3:
     resolution: {integrity: sha512-wWRYt9tC0aIBvRQHNnVtwJ6DRPDj9XYpOAcOyFB11sKSkR/R+NAmbrjBACCPNVmZcxg6joV29wXgb5mU1DI7eA==}
     peerDependencies:
       '@swc/core': '>=1.0'
@@ -10602,7 +10602,7 @@ packages:
     dependencies:
       '@rollup/pluginutils': 4.1.2
       '@swc/core': 1.2.194
-      rollup: 2.75.1
+      rollup: 2.75.3
     dev: true
 
   /rollup/2.72.1:
@@ -10613,8 +10613,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /rollup/2.75.1:
-    resolution: {integrity: sha512-zD73rq3Fanr/spmiybMqmGEvOpryj/heLqOb+lubxiXlo8azeJ/z306T2dJYuzfWZPQBS0OT++GXG6Lbd4ToKw==}
+  /rollup/2.75.3:
+    resolution: {integrity: sha512-YA29fLU6MAYSaDxIQYrGGOcbXlDmG96h0krGGYObroezcQ0KgEPM3+7MtKD/qeuUbFuAJXvKZee5dA1dpwq1PQ==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
