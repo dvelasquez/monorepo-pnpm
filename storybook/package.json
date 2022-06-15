@@ -10,8 +10,8 @@
     "storybook:build": "build-storybook"
   },
   "dependencies": {
-    "react": "18.1.0",
-    "react-dom": "18.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "@d13z-monorepo-pnpm/component-a": "workspace:*",
     "@d13z-monorepo-pnpm/component-b": "workspace:*",
     "@d13z-monorepo-pnpm/component-c": "workspace:*"
