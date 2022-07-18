@@ -66,7 +66,7 @@ importers:
       react: 18.2.0
       react-dom: 18.2.0
       storybook-builder-vite: 0.1.23
-      vite: 3.0.1
+      vite: 3.0.2
     dependencies:
       '@d13z-monorepo-pnpm/component-a': link:../packages/component-a
       '@d13z-monorepo-pnpm/component-b': link:../packages/component-b
@@ -79,10 +79,10 @@ importers:
       '@storybook/addon-essentials': 6.5.9_e349558d9a13a36af50581153c3c53b7
       '@storybook/addon-links': 6.5.9_react-dom@18.2.0+react@18.2.0
       '@storybook/react': 6.5.9_e349558d9a13a36af50581153c3c53b7
-      '@vitejs/plugin-react': 2.0.0_vite@3.0.1
+      '@vitejs/plugin-react': 2.0.0_vite@3.0.2
       babel-loader: 8.2.5_@babel+core@7.18.9
-      storybook-builder-vite: 0.1.23_e505b050bafc327b9386123467dae38b
-      vite: 3.0.1
+      storybook-builder-vite: 0.1.23_6f62a3d108ab09080ad9e30e996821d8
+      vite: 3.0.2
 
 packages:
 
@@ -1908,7 +1908,7 @@ packages:
       chalk: 4.1.2
     dev: true
 
-  /@joshwooding/vite-plugin-react-docgen-typescript/0.0.2_typescript@4.7.4+vite@3.0.1:
+  /@joshwooding/vite-plugin-react-docgen-typescript/0.0.2_typescript@4.7.4+vite@3.0.2:
     resolution: {integrity: sha512-0hbsoX2c7Z3lJKY+88ToduiQDyh+Mggpd6Go0vVV3PchMRyE9iOCVUBiqd4FFfgNdFdk6iNKrO9bdIiHOpW6jA==}
     peerDependencies:
       typescript: '>= 4.3.x'
@@ -1918,7 +1918,7 @@ packages:
       glob-promise: 4.2.2_glob@7.2.0
       react-docgen-typescript: 2.2.1_typescript@4.7.4
       typescript: 4.7.4
-      vite: 3.0.1
+      vite: 3.0.2
     dev: true
 
   /@jridgewell/gen-mapping/0.3.2:
@@ -3979,7 +3979,7 @@ packages:
       - supports-color
     dev: true
 
-  /@vitejs/plugin-react/2.0.0_vite@3.0.1:
+  /@vitejs/plugin-react/2.0.0_vite@3.0.2:
     resolution: {integrity: sha512-zHkRR+X4zqEPNBbKV2FvWSxK7Q6crjMBVIAYroSU8Nbb4M3E5x4qOiLoqJBHtXgr27kfednXjkwr3lr8jS6Wrw==}
     engines: {node: '>=14.18.0'}
     peerDependencies:
@@ -3992,7 +3992,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.18.6_@babel+core@7.18.9
       magic-string: 0.26.2
       react-refresh: 0.14.0
-      vite: 3.0.1
+      vite: 3.0.2
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -11096,14 +11096,14 @@ packages:
     resolution: {integrity: sha512-7t+/wpKLanLzSnQPX8WAcuLCCeuSHoWdQuh9SB3xD0kNOM38DNf+0Oa+wmvxmYueRzkmh6IcdKFtvTa+ecgPDw==}
     dev: true
 
-  /storybook-builder-vite/0.1.23_e505b050bafc327b9386123467dae38b:
+  /storybook-builder-vite/0.1.23_6f62a3d108ab09080ad9e30e996821d8:
     resolution: {integrity: sha512-PmeeYKHaBNQgRVJEwhfyo4Psev1Y7Gj51nlYxUDIG3dpy1e1aGzFubDgsmg9W/BhyHKcLIKp98JBpa1DwL702A==}
     deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     peerDependencies:
       '@storybook/core-common': ^6.4.3
       vite: '>=2.6.7'
     dependencies:
-      '@joshwooding/vite-plugin-react-docgen-typescript': 0.0.2_typescript@4.7.4+vite@3.0.1
+      '@joshwooding/vite-plugin-react-docgen-typescript': 0.0.2_typescript@4.7.4+vite@3.0.2
       '@mdx-js/mdx': 1.6.22
       '@storybook/csf-tools': 6.4.20
       '@storybook/source-loader': 6.4.20_react-dom@18.2.0+react@18.2.0
@@ -11112,8 +11112,8 @@ packages:
       glob: 7.2.0
       glob-promise: 4.2.2_glob@7.2.0
       slash: 3.0.0
-      vite: 3.0.1
-      vite-plugin-mdx: 3.5.10_@mdx-js+mdx@1.6.22+vite@3.0.1
+      vite: 3.0.2
+      vite-plugin-mdx: 3.5.10_@mdx-js+mdx@1.6.22+vite@3.0.2
     transitivePeerDependencies:
       - react
       - react-dom
@@ -11985,7 +11985,7 @@ packages:
       vfile-message: 2.0.4
     dev: true
 
-  /vite-plugin-mdx/3.5.10_@mdx-js+mdx@1.6.22+vite@3.0.1:
+  /vite-plugin-mdx/3.5.10_@mdx-js+mdx@1.6.22+vite@3.0.2:
     resolution: {integrity: sha512-tfGNRwkO23pln9EYqhbsOLEx9Qot5+enl+727gop7+HGEoC87+88hLRWGL+FU/It1Y0a5P3OAyDbTKKHX6tEJw==}
     peerDependencies:
       '@mdx-js/mdx': '*'
@@ -11996,11 +11996,11 @@ packages:
       esbuild: 0.13.8
       resolve: 1.22.1
       unified: 9.2.2
-      vite: 3.0.1
+      vite: 3.0.2
     dev: true
 
-  /vite/3.0.1:
-    resolution: {integrity: sha512-nefKSglkoEsDpYUkBuT2++L04ktcP8fz8dxLtmZdDdMyhubFSOLFw6BTh/46Fc6tIX/cibs/NVYWNrsqn0k6pQ==}
+  /vite/3.0.2:
+    resolution: {integrity: sha512-TAqydxW/w0U5AoL5AsD9DApTvGb2iNbGs3sN4u2VdT1GFkQVUfgUldt+t08TZgi23uIauh1TUOQJALduo9GXqw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
